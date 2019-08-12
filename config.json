@@ -1,0 +1,14 @@
+{
+  "proto": "./service.proto",
+  "call": "main.SleepService.SleepFor",
+  "concurrency": 1,
+  "insecure": true,
+  "connections": 1,
+  "data": {
+    "Milliseconds":150
+  },
+  "duration": "1s",
+  "host": "localhost:8080",
+  "format": "html",
+  "output": "result.html"
+}
